@@ -1,0 +1,262 @@
+{
+	"info": {
+		"_postman_id": "f7b546fc-c609-4005-a866-f7e81d142ba8",
+		"name": "ColorSwatch",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Rgb Get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"blue\": -111,\r\n    \"green\": -222,\r\n     \"red\": -121\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/rgb/RGB/9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"rgb",
+						"RGB",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hsl Get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"blue\": -111,\r\n    \"green\": -222,\r\n     \"red\": -121\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/rgb/RGB/9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"rgb",
+						"RGB",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Rgb Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"blue\": -111,\r\n    \"green\": -222,\r\n     \"red\": -121\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/rgb/RGB/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"rgb",
+						"RGB",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ColorSpec",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"blue\": -111,\r\n    \"green\": -222,\r\n     \"red\": -121\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/color-spec/COLOR_SPECS/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"color-spec",
+						"COLOR_SPECS",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ColorSpec Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"blue\": -111,\r\n    \"green\": -222,\r\n    \"red\": -121\r\n    \"hue\": 50\r\n    \"saturation\": 50\r\n    \"lightness\": 50\r\n    \"brgb_red\": 50\r\n    \"brgb_green\": 50\r\n    \"brgb_blue\": 50\r\n\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/color-spec/COLOR_SPECS/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"color-spec",
+						"COLOR_SPECS",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Color Spec Collection",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"blue\": -111,\r\n    \"green\": -222,\r\n    \"red\": -121\r\n    \"hue\": 50\r\n    \"saturation\": 50\r\n    \"lightness\": 50\r\n    \"brgb_red\": 50\r\n    \"brgb_green\": 50\r\n    \"brgb_blue\": 50\r\n\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/color-spec-collection/COLOR_SPECS_COLLECTION/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"color-spec-collection",
+						"COLOR_SPECS_COLLECTION",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Color Spec Collection Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"collection_size\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/color-spec-collection/COLOR_SPECS_COLLECTION/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"color-spec-collection",
+						"COLOR_SPECS_COLLECTION",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "generateSwatch",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"collection_size\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/generateSwatch",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"generateSwatch"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
